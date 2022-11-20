@@ -1,0 +1,52 @@
+body {
+    background-color: aquamarine;
+    text-align: center;
+    margin-top: 12%;
+}
+
+#pic2 {
+    display: none;
+}
+
+
+button {
+    border: 3px solid fuchsia;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    margin-left: 38%;
+}
+
+div {
+    justify-content: center;
+    
+}
+
+#pic1 {
+    border-radius: 4%;
+    
+
+}
+
+@media only screen and (max-width: 600px) {
+    button {
+        border: 3px solid fuchsia;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 50%;
+        margin-left: 38%; /*Had to set media for button on small devices FIRST although properly aligned so it loads faster*/
+    }
+}
+
+@media only screen and (min-device-width: 1224px) {
+  button {
+    border: 3px solid fuchsia;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    margin-left: 46%; /*had to change the for bigger screens so the button appears centralized on bigger screens*/
+  }
+}
